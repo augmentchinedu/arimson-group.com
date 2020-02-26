@@ -2,6 +2,11 @@
 /*
 * Trunk version 2.0.0
 */
+
+.con-hr{
+  
+}
+
 a:focus,
 button:focus {
   outline: none !important;
