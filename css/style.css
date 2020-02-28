@@ -7233,7 +7233,7 @@ html [class*="section-"].section-bottom-0 {
 .bg-gray-800 [class^="heading-"],
 .bg-primary [class^="heading-"],
 .bg-primary-darker [class^="heading-"] {
-  color: #fff;
+  color: rgb(3, 146, 3);
 }
 .context-dark p a,
 .bg-gray-700 p a,
