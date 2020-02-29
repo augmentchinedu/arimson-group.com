@@ -21,10 +21,27 @@
     <script src="js/html5shiv.min.js"></script>
     <![endif]-->
     <style>
-      ol.circle{
-        list-style-type: circle;
+      p {
+          color: #03227c !important;
       }
-    </style>
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+          color: rgb(8, 85, 8) !important;
+      }
+
+      strong {
+
+          font-weight: 700;
+          color: black !important;
+
+      }
+  </style>
+
 </head>
 
 <body>
@@ -57,31 +74,33 @@
                     <li class="rd-nav-item ">
                       <a class="rd-nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="rd-nav-item">
-                      <a class="rd-nav-link" href="#">About Us</a>
-                      <ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-dropdown-item">
-                          <ul class="rd-dropdown-list">
-                            <li class="rd-dropdown-list-item">
-                              <a class="rd-dropdown-list-link" href="about-us.html">What We Do
-                              </a>
-                            </li>
-                            <li class="rd-dropdown-list-item">
-                              <a class="rd-dropdown-list-link" href="about-us.html">Vision</a>
-                            </li>
-                            <li class="rd-dropdown-list-item">
-                              <a class="rd-dropdown-list-link" href="about-us.html">Core Values</a>
-                            </li>
-                            <li class="rd-dropdown-list-item">
-                              <a class="rd-dropdown-list-link" href="about-us.html">Our Management Team</a>
-                            </li>
-                            <li class="rd-dropdown-list-item">
-                              <a class="rd-dropdown-list-link" href="about-us.html">Our Structure</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
+                     <li class="rd-nav-item active">
+                                            <a class="rd-nav-link" href="about-us.html">About Us</a>
+                                            <ul class="rd-menu rd-navbar-dropdown">
+                                                <li class="rd-dropdown-item">
+                                                    <ul class="rd-dropdown-list">
+                                                        <li class="rd-dropdown-list-item">
+                                                            <a class="rd-dropdown-list-link" href="about-us.html#whatwedo">What
+                                                                We Do
+                                                            </a>
+                                                        </li>
+                                                        <li class="rd-dropdown-list-item">
+                                                            <a class="rd-dropdown-list-link"
+                                                                href="about-us.html#vision">Vision</a>
+                                                        </li>
+                                                        <li class="rd-dropdown-list-item">
+                                                            <a class="rd-dropdown-list-link" href="about-us.html#value">Core
+                                                                Values</a>
+                                                        </li>
+                                                        <li class="rd-dropdown-list-item" >
+                                                            <a class="rd-dropdown-list-link" href="about-us.html#management">Our
+                                                                Management Team</a>
+                                                        </li>
+                                                      
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
 
                     <li class="rd-nav-item active">
                       <a class="rd-nav-link" href="#">Our Services</a>
@@ -318,7 +337,7 @@
               <a class="thumbnail-light-media" href="Infras.html"
                 ><img
                   class="thumbnail-light-image"
-                  src="images/infrastructure3.png"
+                  src="images/infrastructure4.png"
                   alt=""
                   width="270"
                   height="300"
@@ -433,7 +452,7 @@
                   <div class="col-lg-4 ">
                       <div class="inset-right-1 ">
                           <h4>About Us</h4>
-                          <p>
+                          <p style="color: gray !important;">
                               Ariamson Group is a UK Company with interests across diverse sectors including innovation, mobile and telecoms, waste management, oil and Refined Petroleum Minerals and Commodities, Infrastructure, Policy and Management Consultancy
                           </p>
                       </div>
@@ -477,7 +496,7 @@
                   </div>
                   <div class="col-sm-6 col-md-7 col-lg-4 ">
                       <h4>Newsletter</h4>
-                      <p>
+                      <p style="color: gray !important;">
                           Sign up to our newsletter and be the first to know about latest news, special offers, events, and discounts.
                       </p>
                       <!-- RD Mailform-->
@@ -496,39 +515,55 @@
               </div>
           </div>
       </div>
-  </footer> <section style="background:#0e0e0e; max-width: 100%;">
-      <div class="container">
-        <div class="footer-standard-aside">
-          <a class="brand" href="index.html">
-            <img src="images/logo-light-141x21.png" alt="" width="141" height="21"
-              srcset="images/logo-light-281x45.png 2x" />
-          </a>
-          <!-- Rights-->
-          <p class="rights">
-            <span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>All Rights
-              Reserved.</span><span>&nbsp;</span><br class="d-sm-none" /><a href="#">Terms of Use</a><span>
-              and</span><span>&nbsp;</span><a href="privacy-policy.html">Privacy Policy</a>
-          </p>
+  </footer>
+      <section style="background:#0e0e0e; max-width: 100%;">
+        <div class="container">
+          <div class="footer-standard-aside">
+            <a class="brand" href="index.html">
+              <img
+                src="images/logo-light-141x21.png"
+                alt=""
+                width="141"
+                height="21"
+                srcset="images/logo-light-281x45.png 2x"
+              />
+            </a>
+            <!-- Rights-->
+            <p class="rights" style="color: white !important;" >
+              <span>&copy;&nbsp;</span><span class="copyright-year"></span
+              ><span>&nbsp;</span><span>All Rights Reserved.</span
+              ><span>&nbsp;</span><br class="d-sm-none" /><a href="#"
+                >Terms of Use</a
+              ><span> and</span><span>&nbsp;</span
+              ><a href="privacy-policy.html">Privacy Policy</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="preloader">
+      <div class="preloader-logo">
+        <img
+          src="images/logo-default-141x21.png"
+          alt=""
+          width="350"
+          height="200"
+          srcset="images/logo-default-281x45.png 2x"
+        />
+      </div>
+      <div class="preloader-body">
+        <div id="loadingProgressG">
+          <div class="loadingProgressG" id="loadingProgressG_1"></div>
         </div>
       </div>
-    </section>
-  </div>
-  <div class="preloader">
-    <div class="preloader-logo">
-      <img src="images/logo-default-141x21.png" alt="" width="350" height="200"
-        srcset="images/logo-default-281x45.png 2x" />
     </div>
-    <div class="preloader-body">
-      <div id="loadingProgressG">
-        <div class="loadingProgressG" id="loadingProgressG_1"></div>
-      </div>
-    </div>
-  </div>
-  <!-- Javascript-->
-  <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-  <script src="js/core.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
-<!-- Copied from https://livedemo.zemez.io/html/casecraft/services.html by Cyotek WebCopy 1.7.0.600, Saturday, January 25, 2020, 8:41:52 AM -->
-
+    <!-- Javascript-->
+    <script
+      data-cfasync="false"
+      src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+  <!-- Copied from https://livedemo.zemez.io/html/casecraft/services.html by Cyotek WebCopy 1.7.0.600, Saturday, January 25, 2020, 8:41:52 AM -->
 </html>
